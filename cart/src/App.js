@@ -13,9 +13,7 @@ function App() {
       price:9999,
       name:"redmi",
       quantity:0,
-    },{
-
-    }
+    },
   ]
   return (
     <>
