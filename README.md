@@ -1,2 +1,2 @@
 # shoppingcart
-Making shopping Cart using react typescript.
+Making Shopping Cart using react typescript.
