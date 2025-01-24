@@ -18,7 +18,7 @@ function App() {
   ]
 
   let [productlist,setproductlist]=useState(products)
-  incrementQunatity=(index)=>{
+  const incrementQunatity=(index)=>{
     let newproduct=[...productlist]
     newproduct[index].quantity++
     setproductlist(newproduct);
@@ -29,7 +29,7 @@ function App() {
     <>
       <Navbar/>
       <main className='container mt-5'>
-      <ProductList productlist={productlist} incrementQunatity={this.incrementQunatity}/>
+      <ProductList productlist={productlist} incrementQunatity={incrementQunatity}/>
       </main>
       
     </>

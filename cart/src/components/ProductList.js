@@ -5,7 +5,7 @@ export default function ProductList(props) {
   return (
     <div>
     {props.productlist.map((product, i) => {
-    return <Product product={product} key={i} incrementQuantity={props.incrementQuantity} index={i} />;
+    return <Product product={product} key={i} incrementQuantity={props.incrementQunatity} index={i} />;
   })}
 </div>
 
