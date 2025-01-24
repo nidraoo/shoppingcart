@@ -29,7 +29,7 @@ function App() {
     <>
       <Navbar/>
       <main className='container mt-5'>
-      <ProductList productlist={productlist} incrementQunatity={incrementQunatity}/>
+      <ProductList productlist={productliststate} incrementQunatity={incrementQunatity}/>
       </main>
       
     </>
