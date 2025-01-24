@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/navbar';
 import ProductList from './components/ProductList';
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 
 function App() {
   const productlist= [
@@ -15,16 +15,16 @@ function App() {
       name:"redmi",
       quantity:0,
     },
-  ]
+  ];
+  let [productlistState, setProductlist] = useState(productlist);
 
-  let [productlist,setproductlist]=useState(products)
-  const incrementQunatity=(index)=>{
-    let newproduct=[...productlist]
-    newproduct[index].quantity++
-    setproductlist(newproduct);
+  const incrementQunatity = (index) => {
+    let newProductList = [...productlistState];
+    newProductList[index].quantity++;
+    setProductlist(newProductList);
+  };
 
-
-  }
+  
   return (
     <>
       <Navbar/>
