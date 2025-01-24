@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/navbar';
 import ProductList from './components/ProductList';
+import React,{useState} from 'react';
 
 function App() {
   const productlist= [
@@ -15,6 +16,9 @@ function App() {
       quantity:0,
     },
   ]
+
+  let 
+
   return (
     <>
       <Navbar/>

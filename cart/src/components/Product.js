@@ -17,7 +17,7 @@ export default function Product(props) {
           <button type="button" class="btn btn-outline-primary">
             {props.product.quantity}
           </button>
-          <button type="button" class="btn btn-outline-primary">
+          <button type="button" class="btn btn-outline-primary" onClick={}>
             +
           </button>
         </div>
