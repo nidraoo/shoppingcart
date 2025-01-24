@@ -20,10 +20,10 @@ function App() {
   return (
     <>
       <Navbar/>
-      <main>
+      <main className='container mt-5'>
       <ProductList productlist={productlist}/>
       </main>
-      <Footer/>
+      
     </>
   );
 }
